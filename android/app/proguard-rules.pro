@@ -1,0 +1,4 @@
+-keep class com.flashdrop.app.** { *; }
+-keep class com.google.android.gms.nearby.** { *; }
+-keep class io.flutter.app.** { *; }
+-keep class io.flutter.plugin.** { *; }

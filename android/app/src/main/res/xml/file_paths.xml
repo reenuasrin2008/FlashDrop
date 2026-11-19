@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="flashdrop_received" path="FlashDrop/" />
+    <files-path name="flashdrop_internal" path="FlashDrop/" />
+    <cache-path name="flashdrop_cache" path="FlashDropTmp/" />
+</paths>
