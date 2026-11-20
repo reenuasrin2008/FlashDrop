@@ -26,9 +26,6 @@ jobs:
 
       - name: Install dependencies and build APK
         run: |
-          if [ ! -f "pubspec.yaml" ] && [ -f "flashdrop/pubspec.yaml" ]; then
-            cd flashdrop
-          fi
           flutter clean
           flutter pub get
           flutter build apk --release
